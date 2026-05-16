@@ -72,20 +72,30 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Jayshri Ayurveda — Authentic Ayurvedic Care & Premium Herbal Products" },
+      {
+        name: "description",
+        content:
+          "Doctor-led Ayurvedic consultations and GMP-certified herbal medicines for diabetes, hair fall, skin, digestion and more. Trusted by 120,000+ patients across India.",
+      },
+      { name: "author", content: "Jayshri Ayurveda" },
+      { property: "og:title", content: "Jayshri Ayurveda — Ancient Wisdom, Modern Vitality" },
+      {
+        property: "og:description",
+        content:
+          "Personalised Ayurvedic treatments and 100% natural herbal products, delivered across India.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600;700&display=swap",
       },
+      { rel: "stylesheet", href: appCss },
     ],
   }),
   shellComponent: RootShell,
