@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Doctor-led Ayurvedic consultations and GMP-certified herbal medicines for diabetes, hair fall, skin, digestion and more. Trusted by 120,000+ patients across India.",
       },
       { name: "author", content: "Jayshri Ayurveda" },
-      { property: "og:title", content: "Jayshri Ayurveda — Ancient Wisdom, Modern Vitality" },
+      { property: "og:title", content: "Jayshri Ayurveda — Authentic Ayurvedic Care & Premium Herbal Products" },
       {
         property: "og:description",
         content:
@@ -87,6 +87,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Jayshri Ayurveda — Authentic Ayurvedic Care & Premium Herbal Products" },
+      { name: "description", content: "Jayshri Ayurveda Wellness Hub is a premium eCommerce platform for Ayurvedic healthcare and wellness products." },
+      { property: "og:description", content: "Jayshri Ayurveda Wellness Hub is a premium eCommerce platform for Ayurvedic healthcare and wellness products." },
+      { name: "twitter:description", content: "Jayshri Ayurveda Wellness Hub is a premium eCommerce platform for Ayurvedic healthcare and wellness products." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9fe465cc-3faf-44f0-a28e-11b9d6402c2a/id-preview-309edd5e--5e90d575-7042-4698-a4e1-1fa16377f1ba.lovable.app-1778922849491.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9fe465cc-3faf-44f0-a28e-11b9d6402c2a/id-preview-309edd5e--5e90d575-7042-4698-a4e1-1fa16377f1ba.lovable.app-1778922849491.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
